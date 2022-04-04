@@ -1,0 +1,230 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* width: 100%; */
+
+}
+/* .navbar-brand{
+    height: 20%;
+    width: 20%;
+} */
+.topImage{
+    background-image: url(./images/mypizza.jpeg);
+    width: 100%;
+    height:30rem;
+}
+#header{
+    color: yellow;
+    display: flex;
+    justify-content: center;
+    padding: 13%;
+    font-size: 90px;
+    font-family: 'Smokum', cursive;
+    
+}
+.pizzaImages{
+    height: auto;
+    width: 100%;
+    background-color: wheat;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    margin: 10px;
+    height: auto;
+
+}
+#submit{
+    width: 8rem;
+}
+.text-reset p{
+    display: none;
+}
+.price{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bgimage{
+    background-image: url(https://images.unsplash.com/photo-1571407970349-bc81e7e96d47?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTV8fHxlbnwwfHx8fA%3D%3D&w=1000&q=80);
+    width: 100%;
+    height:50rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.bgimage h1{
+    text-align: center;
+}
+.field-container{
+
+    padding: 0 20% 4%;
+    padding-top: 5%;
+    color: white;
+    
+}
+.orderContainter{
+    background-color: rgba(0, 0, 0, 0.8);
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 7%;
+    padding-bottom: 20px;
+    padding-left: 6%;
+    height: 77%;
+    border-radius: 20px;
+    
+}
+.form-control{
+    width: 20%;
+}
+hr {
+    border: 5px solid rgb(54, 5, 5);
+    border-radius: 5px;
+  }
+
+.field-container{
+    margin-left: -20%;
+}
+#submitBtn{
+    margin: 2rem 15rem 2rem;
+    background-color: orange;
+    border-radius: 20px 20px 20px 20px;
+    height: 7rem;
+    width: 13rem;
+    font-size: 30px;
+    position: relative;
+    top: -25rem;
+    left: 12rem;
+    color: white;
+}
+.mydisplay{
+    height: 10rem;
+    width: 23rem;
+    border: 2px solid white;
+    margin-left: 37.6%;
+    color: white;
+    border-radius: 20px;
+    background-color: transparent;
+    align-items: center;
+}
+.mydisplay{
+    display: none;
+    position: relative;
+    top: -25rem;
+}
+#delivery{
+    position: relative; 
+    top: -24rem;
+    left: 26rem;
+    display: none;
+    width: 20rem;
+    font-size: 20px;
+    color: white; 
+    /* border: 2px solid white; */
+
+}
+#deliveryForm{
+    margin-top: -38%;
+    margin-left: 37%;
+    color: white;
+    /* border: 2px solid white; */
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 25rem;
+    display: none;
+    
+}
+#checkoutBtn{
+    margin-left: 45%;
+    margin-top: -1%;
+    width: 12rem;
+    font-size: 28px;
+    display: none;
+    border-radius: 15px;
+}
+.links li a{
+    color: white;
+    
+}
+.fas, .fab, .text2, .text1{
+    color: white;
+}
+#city{
+    margin-left: 20px;
+}
+#crust, #size, #numberOne, #toppings{
+    width: 40%;
+}
+
+
+
+@media screen and (max-device-width: 640px) {
+    #submitBtn {
+        margin: 1rem 10rem 1rem;
+        background-color: green;
+        border-radius: 5px 5px 5px 5px;
+        height: 3rem;
+        width: 4rem;
+        font-size: 6px;
+        position: relative;
+        top: -15rem;
+        left: 2rem;
+        color: white;
+    }
+  }
+  @media screen and (max-device-width: 640px) {
+    #delivery {
+    position: relative; 
+    top: -18rem;
+    left: 10rem;
+    display: none;
+    width: 10rem;
+    font-size: 5px;
+    color: green;
+    }
+  }
+  @media screen and (max-device-width: 640px) {
+    #submitBtn {
+        margin-top: -38%;
+        margin-left: 25%;
+        color: green;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        padding: 4px;
+        width: 15rem;
+        display: none;
+        font-size: 10px;
+    }
+  }
+  @media screen and (max-device-width: 640px) {
+    #deliveryForm{
+        margin-top: -70%;
+        margin-left: 10%;
+        color: white;
+        /* border: 2px solid white; */
+        display: block;
+        justify-content: center;
+        align-items: center;
+        /* padding: 4px; */
+        width: 7rem;
+        display: none;
+    }
+  }
+
+  @media screen and (max-device-width: 640px) {
+    .mydisplay{
+        height: 5rem;
+        width: 15rem;
+        border: 1px solid white;
+        margin-left: 15.6%;
+        color: white;
+        border-radius: 10px;
+        background-color: transparent;
+        align-items: center;
+    }
+  }
