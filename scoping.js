@@ -32,6 +32,21 @@ function myLocalScope (){
 }
 myLocalScope();
 
-console.log(myVar); //if you log outside the function it returns myVar is not defined.
+//console.log(myVar); //if you log outside the function it returns myVar is not defined.
 
 //Global vs. Local Functions
+
+/*
+It is possible to have local and global functions with the same variable, but the local function will take precedence.
+*/
+
+var outerWear = "T-Shirt";
+
+function myOutfit(){
+    var outerWear = "Sweater"
+    
+    return outerWear;
+}
+
+console.log(myOutfit());
+console.log(outerWear);
