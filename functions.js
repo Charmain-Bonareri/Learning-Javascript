@@ -25,6 +25,10 @@ function ourFunction(a,b){
 
 ourFunction(10,5); // outputs 5
 
+function functionWithArgs(a,b){
+    console.log(a+b)
+}
+functionWithArgs(20,2);
 // Return a Value from a Function with Return
 
 // Undefined Value returned
